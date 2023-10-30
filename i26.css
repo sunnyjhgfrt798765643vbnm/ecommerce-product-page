@@ -1,0 +1,289 @@
+
+body{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.logo-img{
+    position: static;
+    top: 20px;
+    margin-left:70px;
+    margin-top:18px;
+    width: 100%;
+    height:45px;
+}
+.search-card{
+    position: fixed;
+    top: 18px;
+    left: 530px;
+    display: flex;
+    gap: 13px;
+    align-items: center; 
+    width: 350px;
+    background-color: transparent;
+    height: 48px;
+    border:1px solid lightgray;
+    border-radius: 30px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.border-vertical{
+    border-left:1px solid lightgrey;
+    height: 20px;
+}
+
+.search-card-heading{
+    font-size: 14px;
+    font-weight: 550;
+    margin: 5px;
+}
+
+.search-logo-bg{
+    padding-top: 8px;
+    background-color: rgba(176, 167, 182, 0.949);
+    border:none;
+    width: 31px;
+    height: 23px;
+    padding-bottom: 1.5px;
+    border-radius: 50%;
+    padding-left: 2px;
+    margin-left: 10px;
+    
+}
+.search-logo{
+    width:100%;
+    height:13px;
+}
+
+.home-logo{
+    height: 30px;
+}
+.home-logo1{
+    height: 20px;
+    margin: 4px;
+}
+.home-logo2{
+    height: 30px;
+    margin: 2px;
+}
+
+.home-logo-container{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border:1px solid lightgray;
+    width: 66px;
+    border-radius: 20px;
+}
+
+.home-card{
+    position: fixed;
+    right: 110px;
+    top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+
+}
+
+.border-horizontal{
+    position: sticky;
+    top: 80px;
+    border-top:1px solid lightgrey;
+    margin-bottom: 10px;
+}
+
+.imgs-card{
+    position: sticky;
+    top: 105px;
+    display: flex;
+    gap: 40px;
+}
+.imgs-logo{
+    height: 24px;
+    margin-top: 18px;
+    margin-left: 80px;
+}
+.imgs-card-heading{
+    font-size: 13px;
+    font-weight: 550;
+    margin-top: 4px;
+    margin-left: 70px;
+}
+.border-horizontal-img{
+    align-items: center;
+    border-top: 2px solid black;
+    width: 43px;
+    margin-left: 70px;
+    margin-top: -3px;
+
+}
+.border-horizontal-img1{
+    border-top: 2px solid black;
+    width: 43px;
+
+}
+
+.imgs-logo1{
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 35px;
+
+}
+.imgs-card-heading1{
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 2px;
+}
+.imgs-logo2{
+    height: 24px;
+    margin-top: 20px;
+}
+.imgs-logo3{
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 18px;
+
+}
+
+
+.search-logo-bg1{
+    position: absolute;
+    right: 428px;
+    padding-top: 8px;
+    background-color: white;
+    border:1px solid lightgray;
+    width: 31px;
+    height: 23px;
+    padding-bottom: 1.5px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+    
+.imgs-logo4{
+    height: 24px;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 0px;
+    background-color: white;
+
+}
+.imgs-card-heading4{
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 2px;
+    background-color: white;
+}
+
+.filer-card{
+    height: 26px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    border:1px solid lightgray;
+    border-radius: 10px;
+    padding: 9px;
+    margin-top: 18px;
+    margin-left: -18px;
+}
+.imgs-card-heading5{
+    padding-bottom: 5px;
+    font-size: 12px;
+    color: black;
+    background-color: white;
+    margin: 5px;
+}
+.filer-card1{
+    height: 26px;
+    display: flex;
+    align-items: center;
+    border:1px solid lightgray;
+    border-radius: 10px;
+    padding: 9px;
+    margin-top: 18px;
+    margin-left: -28px;
+}
+
+.room-img{
+    width: 290px;
+    height: 290px;
+    border-radius: 15px;
+}
+
+.room-card{
+    position: relative;
+    border: none;
+    margin-top: 10px;
+    margin-left: 70px;
+    box-sizing: border-box;
+}
+.room-card-heading{
+    font-size: 16px;
+    font-weight: 550;
+    margin: 5px;
+}
+
+.room-card-heading1{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px;
+}
+.rupee-card{
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+}
+.rupee-logo{
+    width:11px;
+    height:13px;
+    border: none;
+}
+.room-card-heading2{
+    font-size: 16px;
+    margin: 2px;
+}
+.start-card{
+    display: flex;
+    align-items: center;
+}
+.italy-card{
+    display: flex;
+    gap: 147px;
+    align-items: center;
+}
+
+.heart-logo{
+    position: absolute;
+    margin-left: -40px;
+    top: 15px;
+    width:30px;
+    height:30px;
+    border: none;
+}
+.book-img{
+    position: absolute;
+    left:0;
+    margin-bottom: 120px;
+    bottom: 15px;
+    width:65px;
+    height:50px;
+    border: none;
+}
+
+.room-card1{
+    position: relative;
+    border: none;
+    margin-top: 10px;
+    margin-left: 33px;
+    box-sizing: border-box;
+}
+
+.card-container{
+    top: 105px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#marginadd{
+    margin-right: 10px;
+}
